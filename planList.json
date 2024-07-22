@@ -1,0 +1,134 @@
+[
+    {
+        "from_age": 0,
+        "to_age": 17,
+        "gender": "Male",
+        "member_type": "Dependents",
+        "premium": 4639,
+        "minimum_premium": null,
+        "maternity_premium": null
+    },
+    {
+        "from_age": 18,
+        "to_age": 45,
+        "gender": "Male",
+        "member_type": "Employee",
+        "premium": 4639,
+        "minimum_premium": null,
+        "maternity_premium": null
+    },
+    {
+        "from_age": 46,
+        "to_age": 85,
+        "gender": "Male",
+        "member_type": "Employee",
+        "premium": 4639,
+        "minimum_premium": null,
+        "maternity_premium": null
+    },
+    {
+        "from_age": 86,
+        "to_age": 99,
+        "gender": "Male",
+        "member_type": "Employee",
+        "premium": 4639,
+        "minimum_premium": null,
+        "maternity_premium": null
+    },
+
+
+    {
+        "from_age": 18,
+        "to_age": 45,
+        "gender": "Male",
+        "member_type": "Dependents",
+        "premium": 4639,
+        "minimum_premium": null,
+        "maternity_premium": null
+    },
+    {
+        "from_age": 46,
+        "to_age": 85,
+        "gender": "Male",
+        "member_type": "Dependents",
+        "premium": 4639,
+        "minimum_premium": null,
+        "maternity_premium": null
+    },
+    {
+        "from_age": 86,
+        "to_age": 99,
+        "gender": "Male",
+        "member_type": "Dependents",
+        "premium": 4639,
+        "minimum_premium": null,
+        "maternity_premium": null
+    },
+
+
+    {
+        "from_age": 0,
+        "to_age": 17,
+        "gender": "Single Female",
+        "member_type": "Dependents",
+        "premium": 4639,
+        "minimum_premium": null,
+        "maternity_premium": null
+    },
+    {
+        "from_age": 18,
+        "to_age": 45,
+        "gender": "Married Female",
+        "member_type": "Employee",
+        "premium": 4639,
+        "minimum_premium": null,
+        "maternity_premium": null
+    },
+    {
+        "from_age": 46,
+        "to_age": 85,
+        "gender": "Married Female",
+        "member_type": "Employee",
+        "premium": 4639,
+        "minimum_premium": null,
+        "maternity_premium": null
+    },
+    {
+        "from_age": 86,
+        "to_age": 99,
+        "gender": "Married Female",
+        "member_type": "Employee",
+        "premium": 4639,
+        "minimum_premium": null,
+        "maternity_premium": null
+    },
+
+    {
+        "from_age": 18,
+        "to_age": 45,
+        "gender": "Married Female",
+        "member_type": "Dependents",
+        "premium": 4639,
+        "minimum_premium": null,
+        "maternity_premium": null
+    },
+    {
+        "from_age": 46,
+        "to_age": 85,
+        "gender": "Married Female",
+        "member_type": "Dependents",
+        "premium": 4639,
+        "minimum_premium": null,
+        "maternity_premium": null
+    },
+    {
+        "from_age": 86,
+        "to_age": 99,
+        "gender": "Married Female",
+        "member_type": "Dependents",
+        "premium": 4639,
+        "minimum_premium": null,
+        "maternity_premium": null
+    }
+   
+]
