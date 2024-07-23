@@ -6,6 +6,7 @@ export class PlanListStrategy {
     calculateAge(date: string): number {
         return new Date().getFullYear() - new Date(date).getFullYear();
     }
+    
     countEmployeesInAgeRanges(employees: Employee[], premiums: Premium[]): object[] {
         const ageRangeCounts: { from_age: number; to_age: number; count: number }[] = [];
 
