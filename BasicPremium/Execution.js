@@ -33,7 +33,9 @@ class PlanListStrategy {
         const ageRangeCounts = [];
         premiums.forEach(premium => {
             const count = employees.filter(employee => {
+                // -------------- Calculating the Age ------------------------//
                 const age = this.calculateAge(employee["Date of Birth"]); 
+                // -------------- seperate with thier Age Group and gander ---------------//
                 let memberTypeDependent =employee.Relationship !== "Employee" ?"Dependents":"Employee"
                 return age >= premium.from_age && age <= premium.to_age && employee.Gender==premium.gender && premium.member_type == memberTypeDependent
             }).length;
@@ -78,9 +80,8 @@ class PlanListStrategy {
 const strategy = new PlanListStrategy();
 const ageSeperateCount = strategy.countEmployeesInAgeRanges(memberData,planData);
 const memberSeperateCount=strategy.countMemberInAgeGroup(ageSeperateCount,memberData,planData)
+// console.log(memberSeperateCount,"memberSeperateCount");
 const reversePremium=strategy.countReversePremium(memberData,memberSeperateCount)
+console.log(reversePremium,"memberSeperateCount");
 
-console.log(memberAgeCount, "memberAgeCount");
-console.log(memberSeperateCount, "memberSeperateCount");
-console.log(reversePremium, "reverseData");
 
