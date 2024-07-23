@@ -78,6 +78,24 @@
     {
         "from_age": 18,
         "to_age": 45,
+        "gender": "Single Female",
+        "member_type": "Employee",
+        "premium": 4639,
+        "minimum_premium": null,
+        "maternity_premium": null
+    },
+    {
+        "from_age": 18,
+        "to_age": 45,
+        "gender": "Single Female",
+        "member_type": "Dependents",
+        "premium": 4639,
+        "minimum_premium": null,
+        "maternity_premium": null
+    },
+    {
+        "from_age": 18,
+        "to_age": 45,
         "gender": "Married Female",
         "member_type": "Employee",
         "premium": 4639,
@@ -106,7 +124,7 @@
     {
         "from_age": 18,
         "to_age": 45,
-        "gender": "Married Female",
+        "gender":"Married Female",
         "member_type": "Dependents",
         "premium": 4639,
         "minimum_premium": null,
