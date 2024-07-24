@@ -1,0 +1,52 @@
+// industry loading 
+
+[
+   
+    {
+        "S. No.": 3,
+        "Employee No": 2,
+        "Employee Name": "ABCD",
+        "Relationship": "Employee",
+        "Date of Birth": "02/05/2000",
+        "Gender": "Married Female",
+        "Marital Status": "Married",
+        "Nationality": "INDIA",
+        "Visa Issuance Emirates": "Dubai",
+        "Category": "Category A",
+        "Member Type": "HSB",
+        "industry_loading":"5%"
+    }]
+    
+    // volume loading 
+
+    [
+        {
+            "S. No.": 3,
+            "Employee No": 2,
+            "Employee Name": "ABCD",
+            "Relationship": "Employee",
+            "Date of Birth": "02/05/2000",
+            "Gender": "Married Female",
+            "Marital Status": "Married",
+            "Nationality": "INDIA",
+            "Visa Issuance Emirates": "Dubai",
+            "Category": "Category A",
+            "Member Type": "HSB",
+            "volume_loading":"-5%" // only if it match from min and max count  and their status as 1 else 0 %
+         }]
+
+        //  childern loading 
+
+        {
+            "S. No.": 3,
+            "Employee No": 2,
+            "Employee Name": "ABCD",
+            "Relationship": "Employee",
+            "Date of Birth": "02/05/2000",
+            "Gender": "Married Female",
+            "Marital Status": "Married",
+            "Nationality": "INDIA",
+            "Visa Issuance Emirates": "Dubai",
+            "Category": "Category A",
+            "Member Type": "HSB",
+         }
