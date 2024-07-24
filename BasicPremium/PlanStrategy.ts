@@ -1,5 +1,7 @@
 import { Employee } from "./employee.interface";
 import { Premium } from "./premium.interface";
+import memberData from '../MemberList.json'; 
+import planData from '../planList.json'; 
 
 interface PlanStrategy {
     calculateAge(date: string): number;
@@ -93,10 +95,6 @@ class DefaultPlanStrategy implements PlanStrategy {
 }
 
 
-
-
-
-
 class PlanListContext {
     private strategy: PlanStrategy;
 
@@ -118,15 +116,10 @@ class PlanListContext {
 }
 
 // Usage
-import memberData from '../MemberList.json'; 
-import planData from '../planList.json'; 
-
 
 const strategy = new DefaultPlanStrategy();
 const context = new PlanListContext(strategy);
-
 const memberAgeCount = context.executeCountEmployeesInAgeRanges(memberData as Employee[], planData as Premium[]);
 const memberSeperateCount = context.executeCountMemberInAgeGroup(memberData as Employee[], planData as Premium[]);
 const reverseData = context.executeReversePremiumMatch(memberData as Employee[], memberSeperateCount as Premium[]);
-
 console.log(reverseData, "reverseData");
